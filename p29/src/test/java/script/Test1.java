@@ -5,10 +5,15 @@ import org.testng.annotations.Test;
 
 import generic.BaseTest;
 import generic.Excel;
+import page.LoginPage;
 
 public class Test1 extends BaseTest{
 	@Test
 	public void testA() {
+		
+		LoginPage l=new LoginPage(driver);
+		l.setUserName("bhanu");
+		
 		String u=getValue("URL");
 		Reporter.log(u,true);
 		
