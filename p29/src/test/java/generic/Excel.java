@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
-
+//DDT-Data driven test
 public class Excel
 {
   public static String getData(String path,String sheet,int row,int colIndex) {
